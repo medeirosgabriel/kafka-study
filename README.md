@@ -1,4 +1,4 @@
-# Studying Kafka
+# [Studying Kafka](https://www.youtube.com/watch?v=3xxb_QyrFnw&list=PLXjt2Adje6u7CMQXPsrjqOMF7ibXZ6iLE&index=1)
 
 ## kafka-one-consumer
 ### Topic: client.orders
