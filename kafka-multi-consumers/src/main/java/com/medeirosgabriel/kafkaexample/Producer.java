@@ -24,7 +24,8 @@ public class Producer {
         };
 
         for (int i = 0; i < 10; i++) {
-            ProducerRecord record = new ProducerRecord<>("ecommerce.orders", "client" + i, "order:" + i + " dollars"); // key + i == different partitions
+            ProducerRecord record = new ProducerRecord<>("ecommerce.orders", "client" + i, "order:" + i + " dollars");
+            // key + i == different partitions. So different keys, differents partitions.
             producer.send(record, callback).get();
         }
     }
